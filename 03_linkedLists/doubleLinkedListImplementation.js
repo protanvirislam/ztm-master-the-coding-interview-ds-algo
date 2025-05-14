@@ -13,6 +13,7 @@ class DoublyLinkedList {
         value: value,
         prev: null,
         next: null,
+        next: null,
       };
       newNode.prev = this.tail;
       this.tail.next = newNode;
